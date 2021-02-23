@@ -14,9 +14,12 @@
 </head>
 <body>
   <main>
-    <header>
-      <h1>loopstudios</h1>
-      <nav>
+    <div class="mobile-nav-overlay">
+      <div class="mobile-nav-top-bar">
+        <img class="overlay-logo" src="images/logo.svg">
+        <img class="mobile-nav-close" src="images/icon-close.svg">
+      </div>
+      <nav class="mobile-nav">
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Careers</a></li>
@@ -25,8 +28,28 @@
           <li><a href="#">Support</a></li>
         </ul>
       </nav>
-      
+    </div>
+    <header>
+      <img src="images/logo.svg">
+      <img class="hamburger-menu" src="images/icon-hamburger.svg">
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
     </header>
+    <div class="content-width">
+      <div class="hero">
+        <div class="hero-text">
+          <h2>Immersive Experiences That Deliver</h2>
+        </div>
+      </div>      
+    </div>
   </main>
+  <script src="index.js"></script>
 </body>
 </html>
