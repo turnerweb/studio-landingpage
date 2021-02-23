@@ -14,7 +14,6 @@ body {
     min-height: 100vh;
     font-family: 'Alata', sans-serif;
     font-size: 16px;
-    background-color: coral;
 }
 
 .mobile-nav-overlay {
@@ -63,7 +62,7 @@ body {
 header {
     width: 85%;
     max-width: 900px;
-    margin: 40px auto 0 auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,4 +76,24 @@ header {
 
 .desktop-nav {
     display: none;
+}
+
+.hero {
+    height: 80vh;
+    padding-top: 40px;
+    background: url(images/mobile/image-hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    width: 85%;
+    max-width: 500px;
+    padding: 1.5rem 1rem;
+    margin: 180px auto 0 auto;
+    border: 2px solid white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: white;
 }
