@@ -23,6 +23,14 @@ h3 {
     font-size: 2rem;
 }
 
+button:hover,
+.hamburger-menu:hover,
+.mobile-nav-close:hover,
+.social-media-icons img:hover {
+    cursor: pointer;
+}
+
+
 .mobile-nav-overlay {
     width: 100%;
     min-height: 100vh;
